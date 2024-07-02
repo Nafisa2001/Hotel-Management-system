@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label, input, select {
+    display: block;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Hotel Management System - Login</title>
+  <style>
+    body {
+      background-image: url('https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Replace with the path to your image */
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      width: 50%;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    div {
+      margin-bottom: 15px;
+    }
+    label, input, button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <i><h2>Login</h2></i>
+    <form id="loginForm" action="php code/login.php" method="POST">
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
